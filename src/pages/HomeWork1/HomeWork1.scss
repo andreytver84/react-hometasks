@@ -1,0 +1,95 @@
+.bone {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  div {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+  }
+  &_one {
+    .middleCenter {
+      background-color: #000;
+    }
+  }
+  &_two {
+    .topLeft {
+      background-color: #000;
+    }
+    .bottomRight {
+      background-color: #000;
+    }
+  }
+  &_three {
+    .topLeft {
+      background-color: #000;
+    }
+    .middleCenter {
+      background-color: #000;
+    }
+    .bottomRight {
+      background-color: #000;
+    }
+  }
+  &_four {
+    .topLeft {
+      background-color: #000;
+    }
+    .topRight {
+      background-color: #000;
+    }
+    .bottomLeft {
+      background-color: #000;
+    }
+    .bottomRight {
+      background-color: #000;
+    }
+  }
+  &_five {
+    .topLeft {
+      background-color: #000;
+    }
+    .topRight {
+      background-color: #000;
+    }
+    .middleCenter {
+      background-color: #000;
+    }
+    .bottomLeft {
+      background-color: #000;
+    }
+    .bottomRight {
+      background-color: #000;
+    }
+  }
+  &_six {
+    .topLeft {
+      background-color: #000;
+    }
+    .topRight {
+      background-color: #000;
+    }
+    .middleLeft {
+      background-color: #000;
+    }
+    .middleRight {
+      background-color: #000;
+    }
+    .bottomLeft {
+      background-color: #000;
+    }
+    .bottomRight {
+      background-color: #000;
+    }
+  }
+}
+
+.btn {
+}
